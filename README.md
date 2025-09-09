@@ -31,7 +31,18 @@ From the _Essential Algorithms: A Practical Approach to Computer Algorithms_ boo
 # How to compile & run you program
 
 - _You must document compilation and execution here_
+    # g++ koch.cpp -o koch
+    # ./koch 100 300 500 300 3
+
 - _Don't forget to document which algorithm you're implementing_
+    # This program makes the Koch curve (a type of fractal) using recursion.
+    # The idea is:
+	   # 1.	Start with a straight line.
+	   # 2.	Cut it into three equal parts.
+	   # 3.	In the middle part, we “draw” a small triangle bump.
+	   # 4.	We repeat the same steps again and again on the new lines, until we reach the level we want.
+
+In the end, this process creates the spiky shape called the Koch curve.
 
 # Grading Policy
 
